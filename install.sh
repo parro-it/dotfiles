@@ -5,6 +5,8 @@ sh oh-my-zsh-install
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev lxterminal
 
+wget http://input.fontbureau.com/build/?fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&lineHeight=1&accept=I+do&email= -O input-fonts.zip
+
 curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | sh
 export NVM_DIR="/home/parroit/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
