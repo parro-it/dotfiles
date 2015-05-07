@@ -1,3 +1,5 @@
-alias ni="npm install"
+alias ni="npm install --save"
+alias nidev="npm install --save-dev"
 alias nt="npm test"
 alias nr="npm run"
+alias ns="npm start"
