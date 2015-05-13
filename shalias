@@ -3,3 +3,4 @@ alias ctrl-c="xclip -i -selection clipboard"
 
 alias py2="sudo ln -sf /usr/bin/python2 /usr/bin/python"
 alias py3="sudo ln -sf /usr/bin/python3 /usr/bin/python"
+alias pyvenv='python -m venv'
