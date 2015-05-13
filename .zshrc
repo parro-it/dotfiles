@@ -1,12 +1,13 @@
 # Set up the prompt
 
-autoload -Uz promptinit
-promptinit
-prompt adam1
+#autoload -Uz promptinit
+#promptinit
+#prompt adam1
+
+source ~/dotfiles/zsh-git-prompt/zshrc.sh
+PROMPT='%~%b$(git_super_status) '
 
 setopt histignorealldups sharehistory
-
-
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000
