@@ -5,7 +5,9 @@
 #prompt adam1
 
 source ~/dotfiles/zsh-git-prompt/zshrc.sh
-PROMPT='%~%b$(git_super_status) '
+ZSH_THEME_GIT_PROMPT_CHANGED="%{$fg_bold[blue]%}%{✚%G%}"
+export PROMPT="%~%b$(git_super_status)
+$fg_bold[yellow]·%b$reset_color"
 
 setopt histignorealldups sharehistory
 
