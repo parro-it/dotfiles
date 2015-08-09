@@ -31,6 +31,11 @@ then run, from this repo root folder,
 sh install.sh
 ```
 
+## Todo
+
+[ ] Add alias for [LastPass cli](https://github.com/lastpass/lastpass-cli) usage
+
+
 ## License
 
 The MIT License (MIT)
