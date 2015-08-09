@@ -20,7 +20,8 @@ These are my dotfiles
 ## Features
 
 * pure prompt by [Sindre Sorhus](https://github.com/sindresorhus)
-* alias to sped up development with git, node, npm
+* alias to speed up development with git, node, npm
+* alias to quickly create a new issue on your idea repo
 
 ## Install
 

@@ -4,8 +4,14 @@ alias nt="npm test"
 alias nr="npm run"
 alias ns="npm start"
 
-alias mit="echo '\n## License\n\n' >> readme.md && licejs mit | head -n 3 >> readme.md && echo '\n' >> readme.md"
+alias mit="echo '\n## License\n\n' >> readme.md && licejs mit | head -n 3 >> readme.md && echo '\n' >> readme.md && licejs mit > license"
 alias gi="joe sublimetext node > .gitignore"
+
+# quickly create a new issue on your idea repo
+idea() {
+	gh is --new --title $1 --message $2 --user $(whoami) --repo ideas
+}
+
 
 
 
