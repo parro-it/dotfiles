@@ -3,3 +3,9 @@ alias nidev="npm install --save-dev"
 alias nt="npm test"
 alias nr="npm run"
 alias ns="npm start"
+
+alias mit="echo '\n## License\n\n' >> readme.md && licejs mit | head -n 3 >> readme.md && echo '\n' >> readme.md"
+alias gi="joe sublimetext node > .gitignore"
+
+
+
