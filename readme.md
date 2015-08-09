@@ -14,6 +14,13 @@ These are my dotfiles
 * nvm 
 * pyenv
 
+* licejs - used for license generation
+* joe - used for .gitignore generation
+
+## Features
+
+* pure prompt by [Sindre Sorhus](https://github.com/sindresorhus)
+* alias to sped up development with git, node, npm
 
 ## Install
 
