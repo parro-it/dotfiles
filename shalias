@@ -1,4 +1,23 @@
-alias ls="ls -lAh --color"
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'FreeBSD' ]]; then
+   platform='freebsd'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+   platform='osx'
+fi
+
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+if [[ $platform == 'linux' ]]; then
+   alias ls='ls -lAh --color=auto'
+elif [[ $platform == 'freebsd' ]]; then
+   alias ls="ls -lAhG"
+elif [[ $platform == 'osx' ]]; then
+
+    alias ls="ls -lAhG"
+fi
+
 alias ctrl-c="xclip -i -selection clipboard"
 alias pyvenv='python -m venv'
 

@@ -9,7 +9,7 @@ alias gi="joe sublimetext node > .gitignore"
 
 # quickly create a new issue on your idea repo
 idea() {
-	gh is --new --title $1 --message $2 --user $(whoami) --repo ideas
+	gh is --new --title $1 --message $2 --user parro-it --repo ideas
 }
 
 
