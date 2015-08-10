@@ -6,12 +6,13 @@ These are my dotfiles
 
 * zsh
 * oh my zsh
-* git 
+* git
 * xclip
 * node installed as system (other versions managed by nvm)
 * python installed as system (other versions managed by pyenv)
+* [pure prompt](https://github.com/sindresorhus/pure) by [Sindre Sorhus](https://github.com/sindresorhus)
 
-* nvm 
+* nvm
 * pyenv
 
 * licejs - used for license generation
