@@ -1,5 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+
 CASE_SENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
@@ -18,12 +18,17 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH="$HOME/.pyenv/bin:$PATH"
+
+
+
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+source ~/Desktop/repos/dotfiles/platform.sh
 source ~/Desktop/repos/dotfiles/gitalias
 source ~/Desktop/repos/dotfiles/shalias
 source ~/Desktop/repos/dotfiles/npmalias
 
+fpath=( "$HOME/.zfunctions" $fpath )
 autoload -U promptinit && promptinit
 prompt pure
