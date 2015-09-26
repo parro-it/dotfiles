@@ -1,6 +1,7 @@
 alias ni="npm install --save"
 alias nidev="npm install --save-dev"
-alias nt="npm test"
+alias nt="npm test --silent"
+alias nl="npm run lint --silent"
 alias nr="npm run"
 alias ns="npm start"
 

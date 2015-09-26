@@ -32,3 +32,6 @@ source ~/Desktop/repos/dotfiles/npmalias
 fpath=( "$HOME/.zfunctions" $fpath )
 autoload -U promptinit && promptinit
 prompt pure
+
+# added by travis gem
+[ -f /home/parro-it/.travis/travis.sh ] && source /home/parro-it/.travis/travis.sh
