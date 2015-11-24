@@ -1,17 +1,16 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Solarized (Dark) (SL).tmTheme",
-	"font_face": "InputMono",
-	"font_size": 12,
-	"translate_tabs_to_spaces": true,
-    "indent_to_bracket": true,
-    "trim_trailing_white_space_on_save": true,
-    "ensure_newline_at_eof_on_save": true,
-    "highlight_modified_tabs": true,
-    "show_full_path": true,
-    "draw_white_space": "all",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "InputRegular",
+	"font_size": 16,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
-
+	],
+	"indent_to_bracket": true,
+	"show_full_path": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
