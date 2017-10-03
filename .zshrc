@@ -18,10 +18,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
-source ~/Desktop/repos/dotfiles/platform.sh
-source ~/Desktop/repos/dotfiles/gitalias
-source ~/Desktop/repos/dotfiles/shalias
-source ~/Desktop/repos/dotfiles/npmalias
+source ~/aur/dotfiles/platform.sh
+source ~/aur/dotfiles/gitalias
+source ~/aur/dotfiles/shalias
+source ~/aur/dotfiles/npmalias
 
 fpath=( "$HOME/.zfunctions" $fpath )
 autoload -U promptinit && promptinit
